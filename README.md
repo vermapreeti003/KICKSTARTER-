@@ -24,6 +24,7 @@ There were a few challenges I faced working on the dataset.
 * Unix timestamp formula returned values, but the format did not appear as mm/dd/yyyy. Used the "date" format function in order to convert to the correct format.
 * The process to use COUNTIFS formula to calculate the number of successful vs. failed vs. canceled campaigns was done manually. When the range was greater than x, but less than y, I would end up with an error depending on how I wrote the formula. I have not used the term successful in the formula so was unclear for which coulmn to show to outcomes.
 number successful =`COUNTIFS(Kickstarter!$F:$F,"=successful",Kickstarter!$D:$D,"<1000",Kickstarter!$R:$R,"plays")`.
+![image](https://user-images.githubusercontent.com/111541268/186974054-5ab4263e-7a99-42e6-aed0-9d7b22a4663b.png)
 
 ### Analysis of Outcomes Based on Launch Date
 Campaigns launched in May or June are more successful than in November-Janurary.
